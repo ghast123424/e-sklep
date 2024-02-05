@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl">
-      <body className={poppins.className}>
+      <body className={poppins.className} text-slate-700>
         <div className="flex flex-col min-h-screen" >
         
           <NavBar/>
